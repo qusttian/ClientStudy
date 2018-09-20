@@ -180,7 +180,7 @@ public class Walk : MonoBehaviour
         string str = "LEAVE$";
         str += id;
         byte[] bytes = System.Text.Encoding.Default.GetBytes(str);
-        socket.Send(bytes);
+    
         Debug.Log("发送：" + str);
     }
 
